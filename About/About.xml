@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>CrustyTextiles (Continued)</name>
+	<packageId>Mlie.CrustyTextiles</packageId>
+	<author>Mlie</author>
+	<url>https://github.com/emipa606/CrustyTextiles</url>
+	<supportedVersions>
+		<li>1.0</li>
+		<li>1.1</li>
+	</supportedVersions>
+	<modDependencies />
+	<loadAfter />
+	<description>Update of Crustypeanuts mod for RimWorld 1.1
+https://steamcommunity.com/sharedfiles/filedetails/?id=1543745278
+
+Support-chat:
+https://discord.gg/SuhwVpM
+
+Non-steam version:
+https://github.com/emipa606/CrustyTextiles
+	
+Added in Boiled Leather again due to popular demand.
+--- Original Description ---
+A quick and simple mod that adds material reclamation from old, tainted, and/or unwanted clothing into reusable fabric and changes the name of patchleather to patchwork leather.</description>
+</ModMetaData>
+

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Name="ClothProcessBase" Abstract="True">
+		<defName>ClothProcessBase</defName>
+		<label>process cloth</label>
+		<description>Process some cloth.</description>
+		<jobString>Processing Cloth.</jobString>
+		<workAmount>200</workAmount>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Tailor</effectWorking>
+		<soundWorking>Recipe_Tailor</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workSkill>Crafting</workSkill>
+		<recipeUsers>
+			<li>ElectricTailoringBench</li>
+			<li>HandTailoringBench</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="ClothProcessBase">
+    <defName>SalvageFabric</defName>
+    <label>salvage fabric</label>
+    <description>Salvage unwanted or tainted apparel into reusable fabric.</description>
+    <jobString>Salvaging fabric.</jobString>
+    <workAmount>800</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Apparel</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <specialProducts>
+      <li>Smelted</li>
+    </specialProducts>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Apparel</li>
+      </categories>
+	  <disallowedThingDefs>
+			<li>Apparel_PsychicFoilHelmet</li>
+		</disallowedThingDefs>
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>CraftingSpot</li>
+	</recipeUsers>
+  </RecipeDef>
+ 
+ 
+	<RecipeDef ParentName="ClothProcessBase">
+		<defName>BoilLeather</defName>
+		<label>make boiled leather</label>
+		<description>Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets!</description>
+		<jobString>Boiling Leather.</jobString>
+		<workAmount>300</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<products>
+			<BoiledLeather>5</BoiledLeather>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Leather_Human</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Leather_Thrumbo</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<researchPrerequisite>Smithing</researchPrerequisite>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="ClothProcessBase">
+		<defName>BoilLeatherBulk</defName>
+		<label>make boiled leather in bulk</label>
+		<description>Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets! Makes 5x as much.  More efficient with steel.</description>
+		<jobString>Boiling Leather in bulk.</jobString>
+		<workAmount>1200</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<products>
+			<BoiledLeather>25</BoiledLeather>
+		</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Leather_Human</li>
+			</disallowedThingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Steel</li>
+			</thingDefs>
+			<disallowedThingDefs>
+				<li>Leather_Thrumbo</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<researchPrerequisite>Smithing</researchPrerequisite>
+	</RecipeDef>
+
+	</Defs>
