@@ -1,24 +1,22 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<RecipeDef Name="ClothProcessBase" Abstract="True">
-		<defName>ClothProcessBase</defName>
-		<label>process cloth</label>
-		<description>Process some cloth.</description>
-		<jobString>Processing Cloth.</jobString>
-		<workAmount>200</workAmount>
-		<workSpeedStat>TailoringSpeed</workSpeedStat>
-		<effectWorking>Tailor</effectWorking>
-		<soundWorking>Recipe_Tailor</soundWorking>
-		<allowMixingIngredients>true</allowMixingIngredients>
-		<workSkill>Crafting</workSkill>
-		<recipeUsers>
-		<li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-		</recipeUsers>
-	</RecipeDef>
-
-	<RecipeDef ParentName="ClothProcessBase">
+  <RecipeDef Name="ClothProcessBase" Abstract="True">
+    <defName>ClothProcessBase</defName>
+    <label>process cloth</label>
+    <description>Process some cloth.</description>
+    <jobString>Processing Cloth.</jobString>
+    <workAmount>200</workAmount>
+    <workSpeedStat>TailoringSpeed</workSpeedStat>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Crafting</workSkill>
+    <recipeUsers>
+      <li>ElectricTailoringBench</li>
+      <li>HandTailoringBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  <RecipeDef ParentName="ClothProcessBase">
     <defName>SalvageFabric</defName>
     <label>salvage fabric</label>
     <description>Salvage unwanted or tainted apparel into reusable fabric.</description>
@@ -41,16 +39,14 @@
       <categories>
         <li>Apparel</li>
       </categories>
-	  <disallowedThingDefs>
-				<li>Apparel_PsychicFoilHelmet</li>
-			</disallowedThingDefs>
+      <disallowedThingDefs>
+        <li>Apparel_PsychicFoilHelmet</li>
+      </disallowedThingDefs>
     </fixedIngredientFilter>
-	<recipeUsers>
-		<li>CraftingSpot</li>
-	</recipeUsers>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+    </recipeUsers>
   </RecipeDef>
- 
-  
   <!--<RecipeDef ParentName="ClothProcessBase">
 		<defName>PatchLeather</defName>
 		<label>make patchwork leather</label>
@@ -415,5 +411,4 @@
 			</thingDefs>
 		</defaultIngredientFilter>
 	</RecipeDef>-->
-
-	</Defs>
+</Defs>
