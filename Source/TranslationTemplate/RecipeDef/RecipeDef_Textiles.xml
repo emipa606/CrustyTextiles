@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make boiled leather -->
+  <BoilLeather.label>make boiled leather</BoilLeather.label>
+  <!-- EN: Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets! -->
+  <BoilLeather.description>Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets!</BoilLeather.description>
+  <!-- EN: Boiling Leather. -->
+  <BoilLeather.jobString>Boiling Leather.</BoilLeather.jobString>
+  <!-- EN: make boiled leather in bulk -->
+  <BoilLeatherBulk.label>make boiled leather in bulk</BoilLeatherBulk.label>
+  <!-- EN: Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets! Makes 5x as much.  More efficient with steel. -->
+  <BoilLeatherBulk.description>Combine and boil leather, reinforced with steel, to make a tough, durable, but not very insulating material.  Great for biker jackets! Makes 5x as much.  More efficient with steel.</BoilLeatherBulk.description>
+  <!-- EN: Boiling Leather in bulk. -->
+  <BoilLeatherBulk.jobString>Boiling Leather in bulk.</BoilLeatherBulk.jobString>
+  <!-- EN: salvage fabric -->
+  <SalvageFabric.label>salvage fabric</SalvageFabric.label>
+  <!-- EN: Salvage unwanted or tainted apparel into reusable fabric. -->
+  <SalvageFabric.description>Salvage unwanted or tainted apparel into reusable fabric.</SalvageFabric.description>
+  <!-- EN: Salvaging fabric. -->
+  <SalvageFabric.jobString>Salvaging fabric.</SalvageFabric.jobString>
+</LanguageData>
