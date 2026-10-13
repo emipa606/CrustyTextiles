@@ -35,4 +35,4 @@ Boiled Leather, Bonded Leather have been removed in this version as they felt un
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/CrustyTextiles?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015419152) | tags: recycle
+[![Image](https://img.shields.io/github/v/release/emipa606/CrustyTextiles?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2015419152) | recycle
